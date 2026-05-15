@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RomanNumeralConverter.MainPage" Title="Roman Numeral Converter">
     <StackLayout Padding="20,20">
-        <Border Stroke="Grey" StrokeThickness="1">
+        <Border Stroke="Gray" StrokeThickness="1">
             <Entry x:Name="txtInput" Text="5" FontSize="20" />
         </Border>
         <Label HorizontalTextAlignment="Center" x:Name="lblOutput" Text="V" FontSize="Title" Padding="0,40,0,80"/>
